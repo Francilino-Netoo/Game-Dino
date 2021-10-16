@@ -1,0 +1,101 @@
+#game{
+  border: 2px solid #000000;
+  margin: auto;
+}
+#play > img{
+  width: 40px;
+}
+#cacto > img{
+  width: 40px; 
+}
+#zumbizim > img{
+  width: 40px;
+}
+#pauzim > img{
+  width: 40px;
+}
+#cacto{
+  left:700px;
+  position: relative;
+  top:93px;
+  animation: cacto 20s infinite linear;
+}
+#play{
+  position: relative;
+  top:135px;
+  left:6px;
+}
+#zumbizim{
+  left:800px;
+  position: relative;
+  top:46px;
+  animation: cacto 10s infinite linear;
+}
+#pauzim{
+  left: 600px;
+  position: relative;
+  top: 20;
+  animation:cacto 15s infinite linear;
+}
+.jump{
+  animation: jump 700ms linear;
+}
+@keyframes cacto{
+  0%{
+    left: 1040px;
+  }
+  100%{
+    left: -60px;
+  }
+}
+@keyframes jump {
+  0%{
+    top: 60px;
+  }
+  50%{
+    top: 2px;
+  }
+  100%{
+    top:60px; 
+  }
+}
+@keyframes zumbizim{
+  0%{
+    left: 1040px;
+  }
+  100%{
+    left: -60px;
+  }
+}
+@keyframes jump {
+  0%{
+    top: 60px;
+  }
+  50%{
+    top: 2px;
+  }
+  100%{
+    top:60px; 
+  }
+}
+@keyframes pauzim{
+  0%{
+    left: 1040px;
+  }
+  100%{
+    left: -60px;
+  }
+}
+@keyframes jump {
+  0%{
+    top: 60px;
+  }
+  50%{
+    top: 2px;
+  }
+  100%{
+    top:60px; 
+  }
+}
+
+
